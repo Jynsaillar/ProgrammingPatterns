@@ -9,5 +9,6 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3
         IWeapon Weapon { get; }
 
         void SetWeapon(IWeapon weapon);
+        void Attack(ITarget target);
     }
 }
