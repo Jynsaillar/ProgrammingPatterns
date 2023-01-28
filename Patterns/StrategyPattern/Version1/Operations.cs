@@ -4,8 +4,8 @@ using System.Linq;
 {
     public class Operations
     {
-        private IOperation? _ioperation { get; set; }
-        private List<string>? _storage { get; set; }
+        private IOperation? _ioperation;
+        private List<string>? _storage;
 
         private Operations()
         {
@@ -29,10 +29,13 @@ using System.Linq;
 
             if (this._storage is null)
             {
-                Console.WriteLine($"Storage is null!");
+                _storage = new();
             }
 
-            this._storage = this._ioperation.DoOperation(_storage);
+            if (_storage != null)
+            {
+                this._storage = this._ioperation?.DoOperation(_storage);
+            }
             Console.WriteLine("Operation finished.");
         }
 
@@ -50,7 +53,7 @@ using System.Linq;
             }
             foreach (var entry in this._storage)
             {
-                Console.WriteLine($"Storage entry: {entry.ToString()}");
+                Console.WriteLine($"Storage entry: {entry}");
             }
         }
 
