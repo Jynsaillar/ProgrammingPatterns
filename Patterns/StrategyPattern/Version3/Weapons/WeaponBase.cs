@@ -11,16 +11,21 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
         private string _alias = "";
         private int _damage = 0;
         private readonly WeaponType _weaponType = WeaponType.None;
-        public virtual string Name => _name;
 
-        public virtual string Description => _description;
-
-        public virtual int Damage => _damage;
-
+        public string Name => _name;
+        public string Description => _description;
+        public string Alias => _alias;
+        public int Damage => _damage;
         public WeaponType WeaponType => _weaponType;
 
-        public string Alias => _alias;
-
+        /// <summary>
+        /// The weapon that represents the abstract base all weapons derive from.
+        /// </summary>
+        /// <param name="name">The static name of the weapon.</param>
+        /// <param name="description">Flavour text of the weapon.</param>
+        /// <param name="alias">Custom name given to the weapon by the player.</param>
+        /// <param name="damage">The damage this weapon deals in combat.</param>
+        /// <param name="weaponType">The type of the weapon, e.g. melee, ranged, magic, etc.</param>
         protected WeaponBase(string name, string description, string alias, int damage, WeaponType weaponType)
         {
             _name = name;
@@ -38,11 +43,6 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
             target.TakeDamage(Damage);
         }
 
-        /// <summary>
-        /// Changes the user-given nickname of the weapon, e.g.
-        /// <br>"Thunderfury, Blessed Blade of the Windseeker" => "Spicy Kaboom Sword"</br>
-        /// </summary>
-        /// <param name="alias">The new nickname for the weapon.</param>
         public virtual void SetAlias(string alias)
         {
             _alias = alias;

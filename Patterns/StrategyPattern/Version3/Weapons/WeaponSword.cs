@@ -6,6 +6,9 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
     /// </summary>
     internal class WeaponSword : WeaponBase
     {
+        /// <summary>
+        /// Constructor of the basic sword.
+        /// </summary>
         public WeaponSword() : base(
                 name: "Sword",
                 description: "The sword is a formidable melee weapon.\r\nShort range, quick to medium speed.",

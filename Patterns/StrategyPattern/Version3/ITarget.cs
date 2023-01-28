@@ -6,6 +6,10 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3
     /// </summary>
     public interface ITarget
     {
+        /// <summary>
+        /// Makes this target take damage.
+        /// </summary>
+        /// <param name="damage">The damage this target receives.</param>
         public void TakeDamage(int damage);
     }
 }
