@@ -1,4 +1,4 @@
-namespace Programming_Patterns.Patterns.StrategyPattern.Version1
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Version1
 {
     public interface IOperation
     {

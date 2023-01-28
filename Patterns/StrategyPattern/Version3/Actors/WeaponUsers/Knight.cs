@@ -5,7 +5,7 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Actors.WeaponUse
     /// <summary>
     /// A Knight Actor that can carry a weapon, has a health bar, and can be in combat.
     /// </summary>
-    internal class Knight : IWeaponUser, IActor, ITarget
+    public class Knight : IWeaponUser, IActor, ITarget
     {
         private int _health;
         private IWeapon _weapon;

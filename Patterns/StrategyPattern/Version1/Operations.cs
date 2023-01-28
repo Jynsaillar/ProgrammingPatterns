@@ -1,6 +1,6 @@
 using System.Linq;
 
-    namespace Programming_Patterns.Patterns.StrategyPattern.Version1
+    namespace ProgrammingPatterns.Patterns.StrategyPattern.Version1
 {
     public class Operations
     {
@@ -58,8 +58,8 @@ using System.Linq;
         }
 
         /// <summary>
-        /// Updates internal storage container with user-provided contents.
-        /// This WILL clear the internal storage beforehand, even if the user-provided content is empty!
+        /// Updates public storage container with user-provided contents.
+        /// This WILL clear the public storage beforehand, even if the user-provided content is empty!
         /// </summary>
         public void SetStorage(List<string> newStorageContents)
         {

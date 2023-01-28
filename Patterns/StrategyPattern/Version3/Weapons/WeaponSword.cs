@@ -4,7 +4,7 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
     /// <summary>
     /// A simple implementation of a bog-standard sword.
     /// </summary>
-    internal class WeaponSword : WeaponBase
+    public class WeaponSword : WeaponBase
     {
         /// <summary>
         /// Constructor of the basic sword.

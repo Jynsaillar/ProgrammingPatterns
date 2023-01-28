@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammingPatterns.Patterns.MediatorPattern
 {
-    internal interface IMediator
+    public interface IMediator
     {
         public void AddUser(IUser user);
         public void RemoveUser(IUser user);

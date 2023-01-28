@@ -4,7 +4,7 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
     /// <summary>
     /// The base class for any kind of weapon, inherit from this type to create concrete weapons.
     /// </summary>
-    internal abstract class WeaponBase : IWeapon
+    public abstract class WeaponBase : IWeapon
     {
         private readonly string _name = "";
         private readonly string _description = "";

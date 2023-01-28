@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammingPatterns.Patterns.MediatorPattern
 {
-    internal class ConcreteMediator: IMediator
+    public class ConcreteMediator: IMediator
     {
         private List<IUser> _users;
 

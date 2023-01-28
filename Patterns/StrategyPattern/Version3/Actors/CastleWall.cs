@@ -4,7 +4,7 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Actors
     /// <summary>
     /// An entity representing a castle wall that has a health bar and can be attacked.
     /// </summary>
-    internal class CastleWall : IActor, ITarget
+    public class CastleWall : IActor, ITarget
     {
         private int _health = 10000;
 

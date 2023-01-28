@@ -4,7 +4,7 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3
     /// <summary>
     /// An interface for entities that can bear weapons, like soldiers, player characters etc.
     /// </summary>
-    internal interface IWeaponUser
+    public interface IWeaponUser
     {
         /// <summary>
         /// The weapon that the IWeaponUser carries.

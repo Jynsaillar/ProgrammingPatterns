@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammingPatterns.Patterns.StrategyPattern.Version2.Strategies
 {
-    internal class DeleteStrategy : IStrategy
+    public class DeleteStrategy : IStrategy
     {
         public void DoAction()
         {

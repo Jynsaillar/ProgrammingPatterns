@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammingPatterns.Patterns.StrategyPattern.Version2
 {
-    internal class StrategyContext
+    public class StrategyContext
     {
         IStrategy? _activeStrategy;
 

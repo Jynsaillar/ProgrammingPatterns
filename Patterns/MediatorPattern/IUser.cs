@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProgrammingPatterns.Patterns.MediatorPattern
 {
-    internal interface IUser
+    public interface IUser
     {
         public void ReceiveMessage(object message);
         public void SendMessage(object message);

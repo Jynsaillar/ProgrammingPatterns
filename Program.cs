@@ -1,6 +1,6 @@
-﻿using Programming_Patterns.Patterns.StrategyPattern.Version1;
+﻿using ProgrammingPatterns.Patterns.StrategyPattern.Version1;
 
-namespace Programming_Patterns
+namespace ProgrammingPatterns
 {
     public static class Program
     {

@@ -4,7 +4,7 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
     /// <summary>
     /// Implementation of simply having no weapon equipped.
     /// </summary>
-    internal class WeaponNone : WeaponBase
+    public class WeaponNone : WeaponBase
     {
         /// <summary>
         /// A weapon which represents having no weapon equipped (not fists!).

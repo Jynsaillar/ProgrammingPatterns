@@ -4,7 +4,7 @@ namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3
     /// <summary>
     /// Categories of weapons.
     /// </summary>
-    internal enum WeaponType
+    public enum WeaponType
     {
         /// <summary>
         /// No weapon equipped, not equivalent to fists.
