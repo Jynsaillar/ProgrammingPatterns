@@ -4,8 +4,10 @@ namespace Programming_Patterns
 {
     public static class Program
     {
+#pragma warning disable IDE0060 // Suppresses [Remove unused parameter 'args']
         static void Main(string[] args)
         {
+#pragma warning restore IDE0060
             SortOperation sortOperation = new();
             ReverseSortOperation reverseSortOperation = new();
 
