@@ -1,5 +1,5 @@
 ﻿
-namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Variant3
 {
     /// <summary>
     /// Categories of weapons.

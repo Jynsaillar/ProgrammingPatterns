@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgrammingPatterns.Patterns.StrategyPattern.Version2.Strategies
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Variant2.Strategies
 {
-    public class SaveStrategy: IStrategy
+    public class DeleteStrategy : IStrategy
     {
         public void DoAction()
         {
-            // Save something
+            // Delete something
         }
     }
 }

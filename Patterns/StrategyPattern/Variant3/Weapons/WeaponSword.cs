@@ -1,5 +1,5 @@
 ﻿
-namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Variant3.Weapons
 {
     /// <summary>
     /// A simple implementation of a bog-standard sword.

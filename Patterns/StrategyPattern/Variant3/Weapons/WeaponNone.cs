@@ -1,5 +1,5 @@
 ﻿
-namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Variant3.Weapons
 {
     /// <summary>
     /// Implementation of simply having no weapon equipped.

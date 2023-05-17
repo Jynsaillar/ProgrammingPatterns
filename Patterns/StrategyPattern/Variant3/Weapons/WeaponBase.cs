@@ -1,5 +1,5 @@
 ﻿
-namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Variant3.Weapons
 {
     /// <summary>
     /// The base class for any kind of weapon, inherit from this type to create concrete weapons.

@@ -1,5 +1,5 @@
 ﻿
-namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Actors
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Variant3.Actors
 {
     /// <summary>
     /// An entity representing a castle wall that has a health bar and can be attacked.

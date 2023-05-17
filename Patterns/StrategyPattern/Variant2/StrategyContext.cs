@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgrammingPatterns.Patterns.StrategyPattern.Version2
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Variant2
 {
     public class StrategyContext
     {

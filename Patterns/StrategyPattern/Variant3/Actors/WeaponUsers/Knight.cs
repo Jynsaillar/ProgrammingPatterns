@@ -1,6 +1,6 @@
-﻿using ProgrammingPatterns.Patterns.StrategyPattern.Version3.Weapons;
+﻿using ProgrammingPatterns.Patterns.StrategyPattern.Variant3.Weapons;
 
-namespace ProgrammingPatterns.Patterns.StrategyPattern.Version3.Actors.WeaponUsers
+namespace ProgrammingPatterns.Patterns.StrategyPattern.Variant3.Actors.WeaponUsers
 {
     /// <summary>
     /// A Knight Actor that can carry a weapon, has a health bar, and can be in combat.
